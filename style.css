@@ -949,6 +949,12 @@ body[data-page="history"] .course-list.compact {
 }
 
 @media (max-width: 720px) {
+  body {
+    background:
+      radial-gradient(circle at top right, rgba(125, 216, 255, 0.24), transparent 28rem),
+      linear-gradient(180deg, #07182f 0, #0b1e39 426px, var(--paper) 427px);
+  }
+
   .page {
     padding: 20px 16px 48px;
   }
@@ -1007,6 +1013,19 @@ body[data-page="history"] .course-list.compact {
   .hero-actions .icon-action svg {
     width: 21px;
     height: 21px;
+  }
+
+  .profile-card {
+    padding: 8px 20px 10px;
+  }
+
+  .profile-card strong {
+    margin-bottom: 6px;
+  }
+
+  .profile-links {
+    gap: 8px;
+    margin-top: 8px;
   }
 
   .back-link {
