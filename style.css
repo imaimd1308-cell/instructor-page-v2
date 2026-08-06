@@ -68,19 +68,13 @@ body[data-page="history"] {
 
 .lead-row {
   display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 92px;
   align-items: stretch;
   gap: 12px;
   margin-top: 20px;
 }
 
-.lead {
-  grid-column: 2;
-}
-
 .hero-photo {
-  grid-column: 1;
-  grid-row: 1;
   width: 92px;
   height: 100%;
   min-height: 100%;
@@ -977,7 +971,7 @@ body[data-page="history"] .course-list.compact {
   }
 
   .lead-row {
-    grid-template-columns: 84px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 84px;
     gap: 8px;
   }
 
